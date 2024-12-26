@@ -355,7 +355,7 @@ p {
     color: #7678ED;
 }
 
-#episodes button:last-child {
+#episodes .see-more {
     background: #FAFAFA;
     padding: 18px 40px;
     color: #7678ED;
@@ -366,7 +366,176 @@ p {
     margin-top: 48px;
 }
 
-#episodes button:last-child:hover {
+#episodes .see-more:hover {
     background: #7678ED;
+    color: #FFF;
+}
+
+/* ----Pricing Section---- */
+#pricing {
+    margin-top: 48px;
+    padding: 48px 0;
+    background: #FFF;
+}
+
+#pricing .title {
+    color: #13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    max-width: 554px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#pricing .description {
+    color: #898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 386px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+#pricing .btns {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+#pricing .btns button:first-child {
+    background: #FFF;
+    border: 1px solid #DDD;
+    color: #898998;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+#pricing .wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+#pricing .item {
+    width: 384px;
+    padding: 24px;
+    background: #FFF;
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+    transition: 0.4s;
+}
+
+#pricing .item .title {
+    color: #13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+}
+
+#pricing .item .description {
+    color: #898998;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 240px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+#pricing .item .price {
+    color: #13132C;
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+#pricing .item .price span {
+    color: #898998;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#pricing .item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#pricing .item li {
+    color: #13132C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#pricing .item ul i {
+    color: #7678ED;
+    font-size: 20px;
+}
+
+#pricing .item button {
+    margin-top: 32px;
+    background: #FFF;
+    box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+    border: 1px solid #7678ED;
+    color: #7678ED;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px 0;
+    width: 100%;
+    transition: 0.4s;
+}
+
+#pricing .item:hover {
+    background: #7678ED;
+}
+
+#pricing .item:hover .title {
+    color: #FFF;
+}
+
+#pricing .item:hover .description {
+    color: #FFF;
+}
+
+#pricing .item:hover .price {
+    color: #FFF;
+}
+
+#pricing .item:hover .price span {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+#pricing .item:hover ul i {
+    color: #FFF;
+}
+
+#pricing .item:hover li {
+    color: #FFF;
+}
+
+#pricing .item:hover button:hover {
+    background: #8a8cd8;
     color: #FFF;
 }
