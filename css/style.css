@@ -778,7 +778,12 @@ footer .container {
 
 footer .wrapper {
     display: flex;
-    justify-content: space-between;
+    gap: 75px;
+}
+
+footer .wrapper .second {
+    display: flex;
+    gap: 96px;
 }
 
 footer div:first-child p {
