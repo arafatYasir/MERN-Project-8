@@ -635,3 +635,212 @@ p {
     background: #7678ED;
     color: #FFF;
 }
+
+/* ----Review Section---- */
+#review {
+    background: #FFF;
+}
+
+#review .wrapper {
+    position: relative;
+    top: 96px;
+}
+
+#review .title {
+    color: #13132C;
+    font-family: Commissioner;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+    max-width: 403px;
+}
+
+#review .btn-layout {
+    background: #FFF;
+    border: 1px solid #7678ED;
+    padding: 18px 40px;
+    color: #7678ED;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#review .btn-layout:hover {
+    background: #7678ED;
+    color: #FFF;
+}
+
+#review .item {
+    max-width: 384px;
+    border: 1px solid #DDD;
+    background: #FFF;
+    padding: 24px;
+}
+
+#review .comment {
+    color: #62636C;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+#review .profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#review .profile h4 {
+    color: #13132C;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#review .profile p {
+    color: #898998;
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#review .carousel {
+    margin-top: 56px;
+}
+
+#review .carousel i {
+    color: #000;
+    font-size: 18px;
+}
+
+#review .carousel-control-prev,
+#review .carousel-control-next {
+    top: 100%;
+}
+
+#review .carousel-control-prev {
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+#review .carousel-control-next {
+    right: 40%;
+}
+
+#review .carousel-indicators {
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
+/* #review .carousel-item {
+    display: flex;
+    max-width: 384px;
+    margin-right: 0;
+    overflow: hidden;
+} */
+
+
+#review .carousel-inner::after {
+    display: none;
+}
+
+#review .arrow-icon {
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 67px;
+}
+
+#review .arrow-icon:hover {
+    background: #FFF;
+}
+
+#review .arrow-icon:hover i {
+    color: #7678ED;
+}
+
+/* ----Footer Section---- */
+footer {
+    background: #13132C;
+    padding-top: 300px;
+}
+
+footer .container {
+    padding-bottom: 32px;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div:first-child p {
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Commissioner;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 360px;
+    margin-top: 24px;
+}
+
+footer div h3 {
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+footer div ul a,
+footer div li {
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    list-style: none;
+}
+
+footer li i {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+footer .line {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.64);
+    margin-top: 48px;
+}
+
+footer .privacy {
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+
+/* ----Responsive Design---- */
