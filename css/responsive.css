@@ -1,0 +1,291 @@
+@media screen and (min-width: 375px) and (max-width: 575px) {
+    .container {
+        max-width: 327px;
+    }
+
+    /* ----Navbar Section---- */
+    nav {
+        margin-top: 40px;
+    }
+
+    /* ----Banner Section---- */
+    #banner {
+        margin-top: 48px;
+        padding-bottom: 48px;
+    }
+    #banner .title {
+        /* text-align: center; */
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-transform: capitalize;
+        max-width: 100%;
+        text-align: center;
+        max-width: 285px;
+        margin: 0 auto;
+    }
+
+    #banner .description {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: justify;
+        margin-top: 16px;
+    }
+
+    #banner .wrapper {
+        flex-direction: column-reverse;
+    }
+
+    #banner .image img {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    #banner .buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #banner .counters h2 {
+        font-size: 36.5px;
+        line-height: 43.5px;
+    }
+
+    #banner .counters h2 span {
+        font-size: 14.5px;
+    }
+
+    /* ----Podcast Section---- */
+    #podcast {
+        padding: 40px 0;
+    }
+    #podcast .title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #podcast .description {
+        font-size: 14px;
+        text-align: justify;
+        margin-bottom: 32px;
+    }
+
+    #podcast .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ----Different Section---- */
+    #difference {
+        margin-top: 24px;
+        padding: 24px 0;
+    }
+    #difference .title {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    #difference .wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #difference img {
+        width: 100%;
+    }
+
+    #difference ul {
+        max-width: 225px;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    #difference .btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+
+    /* ----Episodes Section---- */
+    #episodes {
+        margin-top: 24px;
+        padding: 32px 0;
+    }
+
+    #episodes .title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #episodes .description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    #episodes .menus {
+        flex-wrap: wrap;
+        align-content: start;
+    }
+
+    #episodes .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #episodes .wrapper .item {
+        display: none;
+    }
+
+    #episodes .wrapper .item:first-child {
+        display: block;
+    }
+
+    #episodes .dots {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+    #episodes .dots div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #F2F2F2;
+    }
+
+    #episodes .dots .active {
+        background: #7678ED;
+    }
+
+    /* ----Pricing Section---- */
+    #pricing {
+        margin-top: 24px;
+        padding: 24px 0;
+    }
+
+    #pricing .title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #pricing .description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    #pricing .wrapper {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    #pricing .wrapper .item {
+        max-width: 100%;
+    }
+
+    /* ----Articles Section---- */
+    #articles {
+        margin-top: 24px;
+        padding: 32px 0;
+    }
+
+    #articles .title {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+    }
+
+    #articles .description {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+
+    #articles .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #articles .wrapper .card {
+        display: none;
+    }
+
+    #articles .wrapper .card:first-child {
+        display: block;
+    }
+
+    #articles .dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+        gap: 24px;
+    }
+
+    #articles .dots div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #F2F2F2;
+    }
+
+    #articles .dots .active {
+        background: #7678ED;
+    }
+
+    /* ----Review Section---- */
+    #review .wrapper {
+        position: relative;
+        top: 96px;
+    }
+
+    #review .title {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+        /* margin-bottom: 16px; */
+    }
+
+    #review .btn-layout {
+        display: none;
+    }
+
+    #review .carousel {
+        margin-top: 32px;
+    }
+
+    #review .carousel-control-next {
+        right: 15%;
+        transform: translateX(-50%);
+    }
+
+    #review .carousel-control-prev {
+        left: 33%;
+    }
+
+    #review .carousel-indicators {
+        left: 8px;
+    }
+
+    /* ----Footer Section---- */
+    footer p {
+        font-size: 14px;
+    }
+
+    footer .wrapper {
+        flex-direction: column;
+        /* margin-top: 32px; */
+    }
+
+    footer .wrapper .second {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 32px;
+        row-gap: 32px;
+    }
+}
