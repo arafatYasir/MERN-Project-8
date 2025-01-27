@@ -8,6 +8,10 @@
         margin-top: 40px;
     }
 
+    .navbar ul {
+        gap: 30px;
+    }
+
     /* ----Banner Section---- */
     #banner {
         margin-top: 48px;
@@ -259,13 +263,29 @@
         margin-top: 32px;
     }
 
-    #review .carousel-control-next {
+    .desktop-carousel {
+        display: none;
+    }
+
+    .mobile-carousel {
+        display: block;
+    }
+
+    .mobile-carousel img {
+        width: 100%;
+    }
+
+    #review .mobile-carousel .carousel-control-next {
         right: 15%;
         transform: translateX(-50%);
     }
 
-    #review .carousel-control-prev {
+    #review .mobile-carousel .carousel-control-prev {
         left: 33%;
+    }
+
+    #review .mobile-carousel .carousel-control-prev {
+        /* top: 100px; */
     }
 
     #review .carousel-indicators {
@@ -279,7 +299,7 @@
 
     footer .wrapper {
         flex-direction: column;
-        /* margin-top: 32px; */
+        gap: 35px;
     }
 
     footer .wrapper .second {

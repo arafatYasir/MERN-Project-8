@@ -685,8 +685,16 @@ p {
     margin-top: 56px;
 }
 
-#review .carousel-control-next,
-.carousel-control-prev {
+.mobile-carousel {
+    display: none;
+}
+
+#review .mobile-carousel .carousel-control-next, #review .mobile-carousel .carousel-control-prev {
+    top: 282px;
+    z-index: 2;
+}
+
+#review .desktop-carousel .carousel-control-next, #review .desktop-carousel .carousel-control-prev {
     top: 321px;
     z-index: 2;
 }
